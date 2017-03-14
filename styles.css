@@ -1,3 +1,17 @@
 h1 {
-	color: red;
+	color: white;
+	background: grey;
+	text-align: center;
+	line-height: 200%;
+	font-family: helvetica, serif;
+}
+
+body {
+	background: #d9d9d9;
+	color: #666666;
+	font-family: helvetica, serif;
+}
+
+a {
+	text-decoration: none;
 }
