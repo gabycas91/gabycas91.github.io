@@ -1,0 +1,66 @@
+.container {
+	width: 960px;
+	margin: 0 auto;
+	background: rgb(243, 243, 243);
+	font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	background: rgb(9, 202, 159);
+	padding: 25px;
+	font-weight: lighter;
+}
+
+
+.links{
+	text-align: center;
+	font-weight: bold;
+	word-spacing: 20px;
+	margin: 20px 0;
+}
+
+.blacklink {
+	text-decoration: none;
+	color: black;
+}
+
+.maui {
+	text-align: center;
+	background: rgb(196, 222, 252);
+	margin-bottom: 30px;
+	padding: 5px 30px;
+}
+
+.reykjavik {
+	text-align: center;
+	background: rgb(194, 242, 227);
+	margin-bottom: 30px;
+	padding: 5px 30px;
+}
+
+.aspen {
+	text-align: center;
+	background: rgb(196, 222, 252);
+	padding: 5px 30px;
+}
+
+.grey {
+		color: #808080;
+}
+
+.footer {
+	background: rgb(9, 202, 159);
+	margin: 0 auto;
+	width: 960px;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+}
+
+a.whitelink {
+	color: white;
+	text-decoration: none;
+}
+
