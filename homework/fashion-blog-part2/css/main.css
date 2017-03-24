@@ -1,0 +1,141 @@
+.container {
+	width: 720px;
+	padding-left: 50px;
+	font-family: Lato;
+}
+
+h1 {
+	color:red;
+	font-weight: lighter;
+}
+
+h3 {
+	color: #D3D3D3;
+	padding: 13px;
+	font-weight: lighter;
+}
+
+h2 {
+	color: grey;
+	font-weight: lighter;
+	margin-top: 0px;
+}
+
+h5 {
+	color: grey;
+}
+
+p {
+	color: grey;
+}
+
+.topnav a {
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	padding: 13px 26px;
+	overflow: auto;
+	display: inline-block;
+
+}
+
+
+.date {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+
+.continues {
+	text-align: right;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.continuescolor {
+	color: red;
+	text-decoration: none;
+}
+
+img {
+	max-width: 450px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.floatleft {
+	float:left;
+	max-width: 200px;
+}
+
+.clear {
+	clear: both;
+}
+
+main {
+	float:left;
+	max-width: 450px;
+}
+
+aside {
+	float: right;
+	width: 235px;
+}
+
+.class {
+	max-width: 500px;
+	float: left;
+}
+
+.aboutus {
+	padding-top: 40px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding-left: 1em; 
+  text-indent: -.7em;
+  color: red;
+}
+
+li::before {
+  content: "• ";
+  color: grey;
+}
+
+.more {
+	text-align: right;
+}
+.morecolor {
+	color: red;
+	text-decoration: none;
+}
+
+.ad {
+	max-width: 240px;
+}
+
+.bottomnav {
+	color: red;
+	text-decoration: none;
+	font-size: 10px;
+}
+
+.bigletter::first-letter {
+	font-size: 360%;
+    color: grey;
+    vertical-align: text-top;
+    float: left;
+    margin-top: -18px;
+    margin-bottom: -14px;
+}
