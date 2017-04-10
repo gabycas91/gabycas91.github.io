@@ -23,7 +23,7 @@ $('#a30').click(function() {
 })
 
 
-$('#an0').click(function() {
+$('#n10').click(function() {
  	 total = total - 10
 
 	$('#out').text(total);
