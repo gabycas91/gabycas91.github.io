@@ -1,0 +1,30 @@
+.container {
+  margin: 0 auto;
+  padding: 25px;
+  border: 1px solid black;
+  width: 400px;
+  background: #e6e6e6;
+  text-align: center;
+  height: 500px;
+}
+
+#dogcold {
+	align-content: center;
+	height: 300px;
+	width: 300px;
+	padding-top: 60px;
+	display: none;
+}
+
+#doghot {
+	align-content: center;
+	height: 300px;
+	width: 350px;
+	display: none;
+}
+
+
+
+
+/*http://38.media.tumblr.com/tumblr_lvdmidzkaO1r363pgo1_500.jpg   COLD
+/*http://ww1.prweb.com/prfiles/2014/06/28/11983705/hotdog.jpg   HOT

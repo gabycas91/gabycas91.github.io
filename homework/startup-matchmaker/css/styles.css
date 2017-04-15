@@ -5,8 +5,8 @@ header {
 }
 
 .container {
-	width: 960px;
 	margin: 0 auto;
+	width: 960px;
 	padding: 15px;
 }
 
@@ -70,6 +70,8 @@ aside {
 
 .two {
 	background-image: url("../img/coworking.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 
@@ -93,14 +95,14 @@ aside {
 .three {
 	background: #EEEEEE;
 	padding-bottom: 20px;
+	overflow: auto;
 }
 
 .profile {
 	float: left;
 	width: 250px;
-	overflow: hidden;
-	padding: 2% 0;
-	margin-left: 230px;
+	padding: 15px;
+	margin: 40px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	border-right: 1px solid #D3D3D3;
@@ -109,8 +111,8 @@ aside {
 .developer {
 	float: left;
 	width: 250px;
-	padding: 2% 3%;
-	margin-left: 55px;
+	padding: 15px;
+	margin: 40px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	border-right: 1px solid #D3D3D3;
@@ -119,8 +121,8 @@ aside {
 .designer {
 	float: left;
 	width: 250px;
-	padding: 2% 3%;
-	margin-left: 40px;
+	padding: 15px;
+	margin: 40px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 }
