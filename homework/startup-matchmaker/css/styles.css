@@ -2,6 +2,7 @@ header {
 	overflow: auto;
 	background-color: black;
 	border-bottom: 3px solid yellow;
+	overflow: auto;
 }
 
 .container {
