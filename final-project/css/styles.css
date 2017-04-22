@@ -10,6 +10,7 @@ header {
 	background-color: #333333;
 	color: white;
 	padding: 20px;
+	border-bottom: 14px solid #929FAD;
 }
 
 h2 {
@@ -28,6 +29,7 @@ h1 {
 nav {
 	float: right;
 	width: 300px;
+	margin-top: 6px;
 }
 
 nav a {
@@ -43,12 +45,12 @@ nav a {
 	color: white;
 	font-size: 20px;
 	opacity: 0.9;
-	border-bottom: 14px solid #666666;
 	margin-bottom: 10px;
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
+	background-color: #e6e6e6;
 }
 
 .coldspring {
@@ -59,20 +61,157 @@ body {
  	background-size: 400px;
  	background-repeat: no-repeat;
  	border-radius: 22px;
+ 	float: left;
 }
 
 .cold {
    color: white; 
    font: bold 20px/41px 'Roboto', Sans-Serif; 
-   background: rgb(0, 0, 0); /* fallback color */
+   background: rgb(0, 0, 0); 
    background: rgba(0, 0, 0, 0.7);
-   padding: 6px; 
+   padding: 6px;
    text-align: center;
    border-top-right-radius: 22px;
    border-top-left-radius: 22px;
+   margin-top: 0px;
+   display: block;
+   text-decoration: none;
 }
 
+.washington {
+ 	background-image: url("../img/dc.jpg");
+ 	width: 285px;
+ 	height: 270px;
+ 	background-position: center center;
+ 	background-size: 400px;
+ 	background-repeat: no-repeat;
+ 	border-radius: 22px;
+ 	float: left;
+ 	margin-left: 52px;
+}
 
+.dc {
+   color: white; 
+   font: bold 20px/41px 'Roboto', Sans-Serif; 
+   background: rgb(0, 0, 0); 
+   background: rgba(0, 0, 0, 0.7);
+   padding: 6px;
+   text-align: center;
+   border-top-right-radius: 22px;
+   border-top-left-radius: 22px;
+   margin-top: 0px;
+   display: block;
+   text-decoration: none;
+}
 
+.new {
+ 	background-image: url("../img/newhaven.jpg");
+ 	width: 285px;
+ 	height: 270px;
+ 	background-position: center center;
+ 	background-size: 400px;
+ 	background-repeat: no-repeat;
+ 	border-radius: 22px;
+ 	float: right;
+}
 
+.haven {
+   color: white; 
+   font: bold 20px/41px 'Roboto', Sans-Serif; 
+   background: rgb(0, 0, 0); 
+   background: rgba(0, 0, 0, 0.7);
+   padding: 6px;
+   text-align: center;
+   border-top-right-radius: 22px;
+   border-top-left-radius: 22px;
+   margin-top: 0px;
+   display: block;
+   text-decoration: none;
+}
 
+.nevada {
+ 	background-image: url("../img/vegas1.jpg");
+ 	width: 285px;
+ 	height: 270px;
+ 	background-position: center center;
+ 	background-size: 400px;
+ 	background-repeat: no-repeat;
+ 	border-radius: 22px;
+ 	float: left;
+ 	margin-top: 25px;
+}
+
+.vegas {
+   color: white; 
+   font: bold 20px/41px 'Roboto', Sans-Serif; 
+   background: rgb(0, 0, 0); 
+   background: rgba(0, 0, 0, 0.7);
+   padding: 6px;
+   text-align: center;
+   border-top-right-radius: 22px;
+   border-top-left-radius: 22px;
+   margin-top: 0px;
+   display: block;
+   text-decoration: none;
+}
+
+.skytop {
+ 	background-image: url("../img/skytop4.jpeg");
+ 	width: 285px;
+ 	height: 270px;
+ 	background-position: center center;
+ 	background-size: 400px;
+ 	background-repeat: no-repeat;
+ 	border-radius: 22px;
+ 	float: left;
+ 	margin-left: 52px;
+ 	margin-top: 25px;
+}
+
+.lodge {
+   color: white; 
+   font: bold 20px/41px 'Roboto', Sans-Serif; 
+   background: rgb(0, 0, 0); 
+   background: rgba(0, 0, 0, 0.7);
+   padding: 6px;
+   text-align: center;
+   border-top-right-radius: 22px;
+   border-top-left-radius: 22px;
+   margin-top: 0px;
+   display: block;
+   text-decoration: none;
+}
+
+.disney {
+ 	background-image: url("../img/disney.png");
+ 	width: 285px;
+ 	height: 270px;
+ 	background-position: center center;
+ 	background-size: 400px;
+ 	background-repeat: no-repeat;
+ 	border-radius: 22px;
+ 	float: right;
+  	margin-top: 25px;
+}
+
+.world {
+   color: white; 
+   font: bold 20px/41px 'Roboto', Sans-Serif; 
+   background: rgb(0, 0, 0); 
+   background: rgba(0, 0, 0, 0.7);
+   padding: 6px;
+   text-align: center;
+   border-top-right-radius: 22px;
+   border-top-left-radius: 22px;
+   margin-top: 0px;
+   display: block;
+   text-decoration: none;
+}
+
+footer {
+	font-family: 'Roboto', sans-serif;
+	background-color: #333333;
+	color: white;
+	padding: 35px;
+	margin-top: 20px
+}
