@@ -23,11 +23,12 @@ $('#entry').submit(function(event) {
 
 	$('#entries').append('<tr><td></td><td>' + number + '</td></tr>');
 
-	$('#entries').submit(function(){
 		total = total + number
 
-		$('#total').text(total);
-	})
-});
+		$('#total').text('$' + total);
+
+		$('#newEntry').val('')
+	});
+
 
 
