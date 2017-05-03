@@ -11,12 +11,19 @@ header {
 	color: white;
 	padding: 20px;
 	border-bottom: 14px solid #929FAD;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   z-index: 1;
 }
 
-h2 {
+header h2 {
 	float: left;
 	width: 300px;
 	margin: 0px;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+
 }
 
 h1 {
@@ -30,6 +37,7 @@ nav {
 	float: right;
 	width: 300px;
 	margin-top: 6px;
+   width: 210px;
 }
 
 nav a {
@@ -51,6 +59,7 @@ nav a {
 body {
 	font-family: 'Roboto', sans-serif;
 	background-color: #e6e6e6;
+   margin-top: 82px;
 }
 
 .coldspring {
@@ -215,3 +224,54 @@ footer {
 	padding: 35px;
 	margin-top: 20px
 }
+
+
+.springsub {
+   font-family: 'Oswald', sans-serif;
+   background-image: url("../img/coldspring2.jpg");
+   color: white;
+   font-size: 20px;
+   opacity: 0.9;
+   margin-bottom: 10px;
+   background-size: 100%;
+   background-size: cover;                    
+   background-repeat: no-repeat;
+   background-position: center center; 
+   text-shadow: -1px 0 #8c8c8c, 0 1px #8c8c8c, 1px 0 #8c8c8c, 0 -1px #8C8C90;
+}
+
+p {
+   font-family: 'Source Sans Pro', sans-serif;
+   line-height: 27px;
+   color: #666666;
+}
+
+h3 p {
+   margin-top: 0px;
+}
+
+.mappic {
+   font-family: 'Oswald', sans-serif;
+   background-image: url("../img/travel1.jpg");
+   color: white;
+   font-size: 20px;
+   opacity: 0.9;
+   margin-bottom: 10px;
+   background-size: 100%;
+   background-size: cover;                    
+   background-repeat: no-repeat;
+   background-position: center center; 
+   text-shadow: -1px 0 #8c8c8c, 0 1px #8c8c8c, 1px 0 #8c8c8c, 0 -1px #8C8C90;
+   opacity: 0.7;
+}
+
+#map {
+   width: 700px; height: 450px; 
+}
+
+
+
+
+
+
+
