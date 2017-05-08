@@ -297,6 +297,11 @@ h3 p {
       margin-bottom: 700px;
 }
 
+.material-icons{
+    display: inline-flex;
+    vertical-align: top;
+    color: #666666;
+}
 
 
 
