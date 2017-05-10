@@ -57,19 +57,3 @@ var marker6 = new google.maps.Marker( {
 	});
 
 
-		// var contentString2 = '<div id="content">' +
-		// '<div id="siteNotice">' +
-		// '</div>' +	
-		// '<p><a href="final-project/coldspring.html">'+
-  //           'Cold Spring</a></p>';
-
-
-	// var infoWindow2 = new google.maps.InfoWindow({
-	// 	content: contentString2
-	// });
-
-	// 	marker2.addListener('click', function() {
-	// 	infoWindow1.open(map, marker2);
-	// });
-
-
