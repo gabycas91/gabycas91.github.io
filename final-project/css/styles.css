@@ -303,12 +303,14 @@ h3 p {
     color: #666666;
 }
 
-img{
+.coming img{
    height: 500px;
    width: 700px;
    padding-left: 130px;
    padding-top: 20px;
    opacity: .85;
+   margin-left: 45px;
+
 }
 
 
